@@ -1,0 +1,7 @@
+name: TrenchTnT
+version: 1.0
+main: com.ascendpvp.TrenchTnTMain
+author: 32Str8
+
+commands:
+    trenchtntadmin:

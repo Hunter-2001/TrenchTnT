@@ -1,0 +1,36 @@
+trench_tnt_name: "&b[&7TrenchTnT&b] &7- Left click for help!"
+trench_tnt_price: 5000000
+blocks_per_tick: 4
+place_tnt_price: 1000
+layers_to_break: 10
+spawn_falling_tnt_height: 20
+
+# In seconds!
+place_timeout: 10
+
+# In ticks!
+wait_before_particles: 36
+wait_before_trench: 37
+
+# The damage value for glass in the Buy Gui. List of colors: http://minecraft-ids.grahamedgecombe.com/
+gui_glass_color: 9
+
+messages:
+    no_inv_space: "&b&lAscendPvP &7> You you must have an empty inventory slot!"
+    buy_tnt_gui_name: "&b&lBuy &b[&7TrenchTnT&b]"
+    buy_tnt_gui_price: "&7Click to buy TrenchTnT Price: &b$#tntPrice#"
+    not_enough_money: "&b&lAscendPvP &7> You must have at least &b$#tntPrice# &7to purchase TrenchTnT"
+    tnt_added: "&b&lAscendPvP &7> You have successfuly added &b#amount# &7to your TrenchTnT!"
+    trenchtnt_bought: "&b&lAscendPvP &7> You successfully bought a TrenchTnT!"
+    trench_tnt_stack: "&b&lAscendPvP &7> TrenchTnT stacked! Please unstack!"
+    incorrect_syntax: "&b&lAscendPvP &7> Incorrect syntax! Try: /trenchtnt or /trenchtnt add"
+    place_not_own_land: "&b&lAscendPvP &7> &bCareful! &7Don't place TrenchTnT outside of your faction land!"
+    help_message: "&b&lAscendPvP &7> Click chests that contain TnT to add it to your &bTrenchTnT balance&7!"
+    not_enough_tnt: "&b&lAscendPvP &7> You must have at least &b#placePrice# &7TnT in your TrenchTnT balance!"
+    place_started: "&b&lAscendPvP &7> Action &bconfirmed&7! Trenching commencing..."
+    place_success: "&b&lAscendPvP &7> You successfully trenched &b#layerAmount# &7layers of land!"
+    trench_tnt_stacked: "&b&lAscendPvP &7> Please unstack your TrenchTnT!"
+    confirm_placement: "&b&lAscendPvP &7> Place the TrenchTnT again on the &bsame block &7to commence trenching."
+    confirm_not_same_block: "&b&lAscendPvP &7> You must place your TrenchTnT on the original placement location!"
+    confirm_timeout: "&b&lAscendPvP &7> &bError! &7You didn't confirm your placement in time!"
+    no_permission_place: "&b&lAscendPvP &7> You do not have permission to place TrenchTnT! Buy @ &bshop.ascendpvp.com"
